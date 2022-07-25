@@ -1,0 +1,16 @@
+name: My first script using G Actions
+
+on: [push]
+
+jobs:
+        run-shell-command:
+                runs-on: ubuntu-latest
+                steps:
+                        - name: echo a string
+                          run: echo "Hello GH actions"
+                        - name: multiple commands
+                          run: | 
+                                  node -v
+                                  uptime -a
+                                  npm -v
+
