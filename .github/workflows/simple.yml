@@ -11,6 +11,6 @@ jobs:
                         - name: multiple commands
                           run: | 
                                   node -v
-                                  uptime -a
+                                  uptime
                                   npm -v
 
